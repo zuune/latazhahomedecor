@@ -310,7 +310,7 @@
 
     #about-us .about.content .img-content img {
         width: 70%;
-        margin-bottom: 50px;
+        margin: 50px auto;
     }
 
 
@@ -323,6 +323,7 @@
         border-radius: 8px;
         display: flex;
         justify-content: center;
+        margin-top: 60px;
     }
 
     #about-cta .cta {
