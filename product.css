@@ -1,0 +1,218 @@
+/* START HOME-product */
+#product{
+    width: 88.7vw;  
+    margin: auto;
+}
+
+#product h2{
+    font-family: 'cinzel';
+    font-size: 1.56vw;
+    font-weight: 500;
+}
+
+#product .product-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#product .product-header h1{
+    font-family: 'cinzel';
+    font-size: 3.12vw;
+    font-weight: 500;
+    margin-top: 0;
+    color: var(--main-font-color);
+}
+
+#product .product-content{
+    width: 100%;
+}
+
+#product .product-content h4{
+    font-family: 'cinzel';
+    font-size: 1.56vw;
+    font-weight: 500;
+    color: var(--main-font-color);
+    margin-bottom: 10px;
+}
+
+#product .product-content{
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+#product .product-content .card{
+    width: 27vw;
+    transition: .5s;
+}
+
+#product .product-content .card:hover{
+    cursor: pointer;
+    filter: brightness(50%);
+}
+
+#product .product-content .card .img{
+    width: 27vw;
+    height: 47vh;
+    background-color: #ddd;
+    border-radius: .5rem;
+    transition: .4s;
+}
+
+#product .product-content .card .img.satu {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('img/products/bantal_pandan.jpeg');   
+}
+
+#product .product-content .card .img.dua {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('img/products/bedcover_nonedit.jpeg');    
+}
+
+#product .product-content .card .img.tiga {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('img/products/bedrunner_set_batik.jpeg'); 
+}
+
+#product .product-content .card .img.empat {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('img/products/bedrunner_songket.jpeg'); 
+}
+
+#product .product-content .card .img.lima {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('img/products/cushion_cover_set_tenunbaduy1.jpeg'); 
+}
+
+#product .product-content .card .img.enam {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('img/products/cushion_cover_set_tenunbaduy2.jpeg'); 
+}
+
+#product .product-content .card .img.tujuh {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('img/products/beddingset.jpg'); 
+}
+
+#product .product-content .card .img.delapan {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('img/products/tablecloth.jpeg'); 
+}
+
+#product .product-content .card .img.sembilan {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('img/products/pillow.jpg'); 
+}
+
+#product .product-content .card .img:hover {
+    filter: brightness(.7);
+}
+
+/* END HOME-product */
+
+/* START responsive breakpoint tablet */
+@media screen and (max-width:800px){
+    
+    #product h2{
+        font-family: 'cinzel';
+        font-size: 1.8vw;
+        font-weight: 500;
+    }
+    
+    #product .product-header h1{
+        font-family: 'cinzel';
+        font-size: 4vw;
+        font-weight: 500;
+        margin-top: 0;
+        color: var(--main-font-color);
+    }
+    
+    #product .product-content{
+        display: flex;
+        justify-content: space-between;
+        line-height: 0;
+        margin-bottom: 30px;
+        row-gap: 30px;
+    }
+}
+/* END responsive breakpoint tablet */
+
+/* START responsive breakpoint hp */
+@media screen and (max-width:600px){
+    #product{
+        width: 88.7vw;  
+        margin: auto;
+    }
+    
+    #product h2{
+        font-family: 'cinzel';
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    
+    #product .product-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #product .product-header h1{
+        font-family: 'cinzel';
+        font-size: 6vw;
+        font-weight: 500;
+        margin-top: 0;
+        color: var(--main-font-color);
+    }
+    
+    #product .product-content{
+        width: 100%;
+    }
+    
+    #product .product-content h4{
+        font-family: 'cinzel';
+        font-size: 1.56vw;
+        font-weight: 500;
+        color: var(--main-font-color);
+        margin-bottom: 10px;
+    }
+    
+    #product .product-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        line-height: 0;
+        margin-bottom: 50px;
+        width: 100%;
+        /* row-gap: 20px; */
+    }
+    
+    #product .product-content .card{
+        width: 100%;
+    }
+    
+    #product .product-content .card .img{
+        width: 100%;
+        height: 30vh;
+    }
+}
+/* END responsive breakpoint hp */
